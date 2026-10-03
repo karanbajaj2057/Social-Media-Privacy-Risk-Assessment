@@ -1,0 +1,41 @@
+# Dependencies
+
+node_modules/
+
+# Build output
+
+dist/
+build/
+
+# Environment variables and secrets
+
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Editor settings
+
+.vscode/
+.idea/
+
+# Testing and coverage
+
+coverage/
+
+# Local Lovable / tooling files
+
+*.local
